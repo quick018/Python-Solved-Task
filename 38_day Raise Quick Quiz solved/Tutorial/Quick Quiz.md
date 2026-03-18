@@ -1,0 +1,1 @@
+# Quick Quiz From and create a program if QUITE is UPPER so print else raise value error 
