@@ -1,24 +1,23 @@
-import random
-def roc():
-    print("Welcome to this Game")
-
+import random as r
+def start():
+    print("Welcome To the Game")
     content = ['snake', 'water', 'gun']
 
-    computer = random.choice(content)
+    computer = r.choice(content)
     player = input("Enter the choice: ")
 
     print("You", player)
     print("Computer", computer)
 
     if player == "snake" and computer == "water":
-      print("Win")
+       print("Win")
     elif player == "water" and computer == "gun":
-      print("Win")
+       print("Win")
     elif player == "gun" and computer == "snake":
-      print("Win")
+       print("Win")
     elif player == computer:
-      print("Draw")
+       print("Draw")
     else:
-      print("Lose")    
+       print("Lose")    
 
-roc()    
+start()
