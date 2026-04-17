@@ -1,8 +1,7 @@
-#    CODING this was made by me
+#    CODING 
 
 import random
 import string
-
 
 ms = input("Enter the message: ")
 words = ms.split(" ")
@@ -24,7 +23,7 @@ if(coding):
          neword.append(word[::-1])   
     print(" ".join(neword))     
 
-
+# Decoding
 
 else:
    neword = []
